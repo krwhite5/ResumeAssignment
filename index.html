@@ -2,6 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+      h2 {
+        font-family: 'Tangerine', serif;
+        font-size: 48px;
+      }
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <title>Katherine Resume</title>
@@ -10,53 +18,60 @@
     <main>
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
       <header>
-        <h1>Katherine White</h1>
-        <h2>Educator Turned Web Developer</h2>
+        <div class="content-wrap">
+          <h1>Katherine White</h1>
+          <h2>Educator Turned Web Developer</h2>
 
-        <p>Educator gone programmer sums up everything you need to know. Starting out as an educator I found that I gravitated to the creativity in the curriculum design. I love solving puzzles, problem shooting, and make things click for the people I serve. Along with many other curiosities, I soon ended up taking an informal course in coding and got hooked. Now I am on the way to mastering coding skills so I can combine my experience working with people and creating websites to help companies connect to their clientele.</p>
-        
+          <p>Educator gone programmer sums up everything you need to know. Starting out as an educator I found that I gravitated to the creativity in the curriculum design. I love solving puzzles, problem shooting, and make things click for the people I serve. Along with many other curiosities, I soon ended up taking an informal course in coding and got hooked. Now I am on the way to mastering coding skills so I can combine my experience working with people and creating websites to help companies connect to their clientele.</p>
+        </div>
       </header>
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
       <section class="projects">
-        <h2>Featured Projects</h2>
-        <p>View selected projects below. </p>
+        <div class="content-wrap">
+          <h2>Featured Projects</h2>
+          <p>View selected projects below. </p>
 
-        <!-- Copy the whole <section> block to add more projects. -->
-        <section>
-          <h3>Vicious Cycles</h3>
-          <img src="images/viciouscycles.png" alt="viciouscycles">
-          <p>Vicious Cycles is a fictious website used to showcase coding skills in HTML and CSS</p>
-          <a class="btn" href="https://wcet.waketech.edu/krwhite5/WEB140/Project/index.html" target="_blank">View project / case study</a>
-        </section>
+          <!-- Copy the whole <section> block to add more projects. -->
+          <section class="project-item">
+            <img src="images/viciouscycles.png" alt="viciouscycles">
+            <h3>Vicious Cycles</h3>
+            
+            <p>Vicious Cycles is a fictious website used to showcase coding skills in HTML and CSS</p>
+            <a class="btn" href="https://wcet.waketech.edu/krwhite5/WEB140/Project/index.html" target="_blank">View project / case study</a>
+          </section>
 
-        <section>
-          <h3>Teachers Pay Teachers</h3>
-          <img src="images/teacherspayteachers.png" alt="teacherspayteachers">
-          <p>Teacher Pay Teachers is a website where I sell math and science digital curriculum that I have designed. It is organized by subject. Check out the science curriculum <a href="https://www.teacherspayteachers.com/Store/Kinetic-Kat/PreK-12-Subject-Area/Science?ref=filter/subject">here!</a></p>
-          <a class="btn" href="https://www.teacherspayteachers.com/Store/Kinetic-Kat" target="_blank">View project / case study</a>
-        </section>
+          <section class="project-item">
+            <img src="images/teacherspayteachers.png" alt="teacherspayteachers">
+            <h3>Teachers Pay Teachers</h3>
+            
+            <p>Teacher Pay Teachers is a website where I sell math and science digital curriculum that I have designed. It is organized by subject. Check out the science curriculum <a href="https://www.teacherspayteachers.com/Store/Kinetic-Kat/PreK-12-Subject-Area/Science?ref=filter/subject">here!</a></p>
+            <a class="btn" href="https://www.teacherspayteachers.com/Store/Kinetic-Kat" target="_blank">View project / case study</a>
+          </section>
+        </div>
         <!-- End of Project block. -->
       </section>
 
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
       <section class="work-experience">
-        <h2>Work Experience</h2>
-        <p>Ten years of teaching in America and Japan.</p>
+        <div class="content-wrap">
+          <h2>Work Experience</h2>
+          <p>Ten years of teaching in America and Japan.</p>
 
-        <!-- Copy this whole <section> block to add more jobs. -->
-        <section>
-          <h3>Teacher</h3>
-          <p>Johnston Charter School</p>
-          <p>August 2021</p>
-          
-          <p>Optional list:</p>
-          <ul>
+          <!-- Copy this whole <section> block to add more jobs. -->
+          <section>
+            <h3>Teacher</h3>
+            <p>Johnston Charter School</p>
+            <p>August 2021</p>
             
-            <li>Created lesson plans</li>
-            <li>Lead individualized instruction</li>
-            <li>Responsible for the education and well being of students</li>
-          </ul>
+            <p>Tasks:</p>
+            <ul>
+              
+              <li>Created lesson plans</li>
+              <li>Lead individualized instruction</li>
+              <li>Responsible for the education and well being of students</li>
+            </ul>
+        
         </section>
 
         <section class="education">
@@ -64,7 +79,7 @@
           <p>Ridgewood Elementary</p>
           <p>August 2016</p>
       
-          <p>Optional list:</p>
+          <p>Tasks: </p>
           <ul>
             
             <li>Created lesson plans</li>
@@ -72,34 +87,40 @@
             <li>Responsible for the education and well being of students</li>
           </ul>
         </section>
+      </div>
         <!-- End of Job block. -->
       </section>
 
       <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
       <section>
-        <h2>Education</h2>
+        <div class="content-wrap">
+          <h2>Education</h2>
 
-        <!-- Copy this whole <section> block to add more schools. -->
+          <!-- Copy this whole <section> block to add more schools. -->
+            <section>
+              <h3>Wake Tech - Raleigh</h3>
+              <p>Associates Web Development, 2024</p>
+            </section>
           <section>
-            <h3>Wake Tech - Raleigh</h3>
-            <p>Associates Web Development, 2024</p>
+            <h3>East Carolina University - Greenville</h3>
+            <p>Bachelors of Science Elementary Education, 2010-2014</p>
           </section>
-        <section>
-          <h3>East Carolina University - Greenville</h3>
-          <p>Bachelors of Science Elementary Education, 2010-2014</p>
-        </section>
-        <!-- End of School block. -->
+          <!-- End of School block. -->
+        </div>
       </section>
 
       <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
       <footer>
+        <div class="content-wrap">
         <h2>Let's Keep in Touch!</h2>
 
         <!-- Social media and contact links. Add or remove any networks. -->
         <ul>
-          <li><a href="mailto:kwhite5655@gmail.com">kwhite5655@gmail.ocm</a></li>
+          <li><a id="email" href="mailto:kwhite5655@gmail.com">kwhite5655@gmail.ocm</a></li>
+          <li id="phone">000-000-0000</li>
           
         </ul>
+        </div>
       </footer>
     </main>
   </body>
